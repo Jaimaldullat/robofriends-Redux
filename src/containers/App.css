@@ -9,3 +9,24 @@ h1 {
 	font-weight: 200;
 	color: #0ccac4;
 }
+.main-div {
+	text-align: center;
+}
+
+.robo-input {
+	border-radius: 5px;
+	padding: 4px;
+	border: 1px solid #aaa;
+	/* height: 33px; */
+	font-size: 18px;
+}
+.robo-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 0 0 12px -1px #aaa;
+	color: #fff;
+}

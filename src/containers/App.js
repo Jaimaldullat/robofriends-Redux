@@ -49,11 +49,11 @@ class App extends Component {
                 .includes(searchField.toLowerCase());
         });
         return isPending ? ( <
-            h1 className = "f1" > Loading < /h1>
+            h1 className = "heading" > Loading < /h1>
         ) : ( <
-            div className = "tc" >
+            div className = "main-div" >
             <
-            h1 className = "f1" > RoboFriends < /h1> <
+            h1 className = "heading" > RoboFriends < /h1> <
             Searchbox searchChange = {
                 onSearchChange
             }

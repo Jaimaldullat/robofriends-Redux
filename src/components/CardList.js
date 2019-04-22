@@ -22,7 +22,7 @@ const CardList = ({
             />
         );
     });
-    return <div > {
+    return <div className="robo-container" > {
         cardsArray
     } < /div>;
 };
